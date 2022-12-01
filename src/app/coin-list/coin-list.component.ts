@@ -31,7 +31,7 @@ export class CoinListComponent implements OnInit {
     this.currencyService.getCurrency().subscribe((val :any)=>{
       this.currency = val
       this.getAllData()
-      this.bannerData()
+      this.getBannerData()
     })
   }
   getBannerData() {
